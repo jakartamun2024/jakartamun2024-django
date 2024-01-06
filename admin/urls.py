@@ -6,5 +6,6 @@ app_name = 'admin-page'
 urlpatterns = [
     path('test/', test, name='test'),
     path('get-press/', get_press, name='test'),
+    path('get-detail/', get_detail, name='test'),
 
 ]
